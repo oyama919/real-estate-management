@@ -1,0 +1,93 @@
+{
+  "title": "title",
+  "info": {
+    "closestStation": {
+      "name": "station",
+      "distance": "徒歩15分"
+    },
+    "buildingAge": {
+      "label": "昭和48年1月/1973年1月",
+      "year": 1973
+    },
+    "address": "address",
+    "structure": "RC",
+    "scale": "地下1階地上3階建",
+    "rents": [
+      {
+        "name": "地下A",
+        "size": "約12坪",
+        "rent": "4万",
+        "isRented": false
+      },
+      {
+        "name": "地下B",
+        "size": "約8坪",
+        "rent": "3万",
+        "isRented": false
+      },
+      {
+        "name": "1階",
+        "size": "TODO",
+        "rent": "7万5千",
+        "isRented": true
+      },
+      {
+        "name": "2階/3階",
+        "size": "TODO",
+        "rent": "8万",
+        "isRented": true
+      }
+    ],
+    "remainingWork": [
+      {
+        "地下": [
+          {
+            "地下全体": [
+              {
+                "掃除": [
+                  {
+                    "水拭き": "",
+                    "トイレ掃除": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "地下A": [
+              {
+                "掃除": [
+                  {
+                    "水拭き": "",
+                    "窓掃除": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2階/3階": [
+          { "網戸取付": "" },
+          { "インターホン": "メルカリ or ヤフオクあたりで" },
+          {
+            "電気・水道の契約と精算": "電気屋さんは手配してもらってるって聞いた気がする"
+          },
+          { "TODO": "思い出したら追加" }
+        ]
+      }
+    ],
+    "repairRecord": [
+      { "屋上塗装": "" },
+      { "外壁塗装": "" },
+      {
+        "床貼替": [{ "2階居間": "CF茶" }, { "2階ダイニングキッチン": "CF白" }]
+      }
+    ],
+    "repairCosts": [
+      { "cost1": "cost1" },
+      { "cost2": [{ "cost2_1": "cost2_1" }, { "cost2_2": "cost2_1" }] }
+    ]
+  }
+}
